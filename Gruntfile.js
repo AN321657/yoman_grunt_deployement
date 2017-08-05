@@ -431,7 +431,7 @@ module.exports = function (grunt) {
         },
         heroku: {
             options: {
-                remote: 'https://git.heroku.com/thawing-thicket-42236.git',
+                remote: 'git@heroku.com:thawing-thicket-42236.git',
                 branch: 'master',
                 tag: pkg.version
             }
