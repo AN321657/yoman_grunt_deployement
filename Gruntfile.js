@@ -9,6 +9,7 @@
 
 module.exports = function (grunt) {
     var pkg = require('./package.json');
+    require('jit-grunt')(grunt);
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
@@ -507,5 +508,5 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
-  grunt.loadNpmTasks('grunt-build-control');
+  //grunt.loadNpmTasks('grunt-build-control');
 };
