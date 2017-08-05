@@ -432,7 +432,7 @@ module.exports = function (grunt) {
         },
         heroku: {
             options: {
-                remote: 'git@heroku.com:thawing-thicket-42236.git',
+                remote: 'git@heroku.com:radiant-waters-55467.git',
                 branch: 'master',
                 tag: pkg.version
             }
