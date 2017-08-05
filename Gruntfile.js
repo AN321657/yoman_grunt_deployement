@@ -432,7 +432,7 @@ module.exports = function (grunt) {
         },
         heroku: {
             options: {
-                remote: 'git@heroku.com:radiant-waters-55467.git',
+                remote: 'git@heroku.com:powerful-springs-93158.git',
                 branch: 'master',
                 tag: pkg.version
             }
