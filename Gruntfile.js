@@ -425,7 +425,7 @@ module.exports = function (grunt) {
         },
         pages: {
             options: {
-                remote: 'git@github.com:AN321657/yoman_grunt_deployement.git',
+                remote: 'https://github.com/AN321657/yoman_grunt_deployement.git',
                 branch: 'gh-pages'
             }
         },
